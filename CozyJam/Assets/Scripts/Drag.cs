@@ -35,14 +35,32 @@ public class Drag : MonoBehaviour
                 mousePos.z = objScreenPos.z; // mantém distância
                 Vector3 worldPos = Camera.main.ScreenToWorldPoint(mousePos);
 
-                selectedObject.transform.position = new Vector3(worldPos.x, worldPos.y, worldPos.z);
+                selectedObject.transform.position = new Vector3(worldPos.x, 0.5f, worldPos.z);
             }
         }
-
+        
         // SOLTAR
         else if (selectedObject != null)
         {
-            // Ativa física
+            RaycastHit hit = CastRay();
+            if (hit.collider != null && hit.collider.CompareTag("CropPlace"))
+            {
+                
+                CropPlace place = hit.collider.GetComponent<CropPlace>();
+
+                if (place != null && !place.isOccupied)
+                {
+                    place.Plant(selectedObject.GetComponent<SeedReference>().seedData);
+
+                    Destroy(selectedObject); // remove a seed da mão
+                }
+                else
+                {
+                    // Se já estiver ocupado, apenas larga no chão
+                    selectedObject = null;
+                }
+            }
+            /*// Ativa física
             selectedRb.isKinematic = false;
 
             // Força de lançamento na direção da câmera
@@ -56,7 +74,7 @@ public class Drag : MonoBehaviour
                 Random.Range(-1f, 1f)
             ) * torqueForce;
 
-            selectedRb.AddTorque(randomTorque, ForceMode.VelocityChange);
+            selectedRb.AddTorque(randomTorque, ForceMode.VelocityChange);*/
 
             // Limpar referências
             selectedObject = null;
