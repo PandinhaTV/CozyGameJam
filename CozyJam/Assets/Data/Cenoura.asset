@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7aeb6ed973b8fa144bd1e383bba5a18c, type: 3}
+  m_Name: Cenoura
+  m_EditorClassIdentifier: Assembly-CSharp::SeedData
+  seedName: Carrot
+  icon: {fileID: 0}
+  growthStageDurations:
+  - 3
+  growthStagePrefabs:
+  - {fileID: 6006716043630173664, guid: 7a7a08170f647f4488c31de4107ec3d9, type: 3}
+  harvestItemPrefab: {fileID: 0}
+  harvestAmount: 1
+  regrow: 0
+  regrowTime: 0
+  buyPrice: 0
+  sellPrice: 10
