@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0604f82f0dca7ea4c8a8342fc5b84c6d
+guid: b68954a05f7741a44846db1287bfeff5
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Carrot_Grab_0
+      name: Tomato_Grab_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 37
-        height: 53
+        width: 35
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a3a2555455820942b1e82bb5759a89c
-      internalID: 294419023
+      spriteID: dc879bb2205562f40a5c8a088fc332fe
+      internalID: -1545508101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carrot_Grab_1
+      name: Tomato_Grab_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 35
         y: 0
-        width: 37
-        height: 53
+        width: 35
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99bb9ad8aadc6564c9f9d8fc9e245ad5
-      internalID: -2079988815
+      spriteID: c00a3f3adc2a0ea4c8eaf8002ade38f1
+      internalID: 1484868863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carrot_Grab_2
+      name: Tomato_Grab_2
       rect:
         serializedVersion: 2
-        x: 74
+        x: 70
         y: 0
-        width: 37
-        height: 53
+        width: 35
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 129fc8f37e0ef5b4f87de4cf239afb44
-      internalID: -1723855539
+      spriteID: ecc9665ece1d8f142a67c953ad19edcf
+      internalID: -1232922006
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carrot_Grab_3
+      name: Tomato_Grab_3
       rect:
         serializedVersion: 2
-        x: 111
+        x: 105
         y: 0
-        width: 37
-        height: 53
+        width: 35
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b6e5c4225527514ea1be25382dbe027
-      internalID: 1984342063
+      spriteID: 5ef96b3570229b54095887b06140a7d3
+      internalID: -548305296
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ec107f06cc813234caaae065f1e18610
+    spriteID: 09fd04b6ea0ff4c42b74ced910ec602b
     internalID: 0
     vertices: []
     indices: 
@@ -198,12 +198,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":37.0,"y":53.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":35.0,"y":38.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Carrot_Grab_0: 294419023
-      Carrot_Grab_1: -2079988815
-      Carrot_Grab_2: -1723855539
-      Carrot_Grab_3: 1984342063
+      Tomato_Grab_0: -1545508101
+      Tomato_Grab_1: 1484868863
+      Tomato_Grab_2: -1232922006
+      Tomato_Grab_3: -548305296
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
