@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1ee274ce099c4e40ae93a8367a9e9f1, type: 3}
   m_Name: CenouraItem
   m_EditorClassIdentifier: Assembly-CSharp::ItemData
-  itemName: 
+  itemName: SeedsCenoura
   icon: {fileID: 0}
-  worldPrefab: {fileID: 0}
+  worldPrefab: {fileID: 7847329779944735259, guid: 683d58b758de9634a84c7b29846d4527, type: 3}
+  quantity: 0

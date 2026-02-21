@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class HotbarManager : MonoBehaviour
 {
     public HotbarSlot[] slots;
     public int selectedIndex = 0;
-
+    public ItemData[] items;
     void Start()
     {
         SelectSlot(0);
@@ -12,21 +13,17 @@ public class HotbarManager : MonoBehaviour
 
     void Update()
     {
-        HandleInput();
         
-        if (Input.GetMouseButtonDown(0))
+        
+        if (Mouse.current.leftButton.wasPressedThisFrame)
         {
             UseSelectedItem();
         }
     }
 
-    void HandleInput()
+    public void AddItem(int index)
     {
-        if (Input.GetKeyDown(KeyCode.Alpha1)) SelectSlot(0);
-        if (Input.GetKeyDown(KeyCode.Alpha2)) SelectSlot(1);
-        if (Input.GetKeyDown(KeyCode.Alpha3)) SelectSlot(2);
-        if (Input.GetKeyDown(KeyCode.Alpha4)) SelectSlot(3);
-        if (Input.GetKeyDown(KeyCode.Alpha5)) SelectSlot(4);
+        slots[index].item.quantity++;
     }
 
     public void SelectSlot(int index)
