@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0604f82f0dca7ea4c8a8342fc5b84c6d
+guid: 6bd933e4f1bbdfa4db8ef9e68cf58f0c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Carrot_Grab_0
+      name: Tomato_Walk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 37
-        height: 53
+        width: 35
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,20 +112,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a3a2555455820942b1e82bb5759a89c
-      internalID: 294419023
+      spriteID: 55382a169d3d35045a286ac24eba232f
+      internalID: -2119041267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carrot_Grab_1
+      name: Tomato_Walk_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 35
         y: 0
-        width: 37
-        height: 53
+        width: 35
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99bb9ad8aadc6564c9f9d8fc9e245ad5
-      internalID: -2079988815
+      spriteID: 4b30091668dfd9042a77e69e1780825e
+      internalID: -320473911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carrot_Grab_2
+      name: Tomato_Walk_2
       rect:
         serializedVersion: 2
-        x: 74
+        x: 70
         y: 0
-        width: 37
-        height: 53
+        width: 35
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -156,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 129fc8f37e0ef5b4f87de4cf239afb44
-      internalID: -1723855539
+      spriteID: a6e5af51fef3c574e9f40150ca13287e
+      internalID: 698341607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Carrot_Grab_3
+      name: Tomato_Walk_3
       rect:
         serializedVersion: 2
-        x: 111
+        x: 105
         y: 0
-        width: 37
-        height: 53
+        width: 35
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,8 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b6e5c4225527514ea1be25382dbe027
-      internalID: 1984342063
+      spriteID: ca8bc620d49e6124d99e7b4a50eaf1cd
+      internalID: 483792037
       vertices: []
       indices: 
       edges: []
@@ -188,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ec107f06cc813234caaae065f1e18610
+    spriteID: b18d08bc19d9d684a82722030d21b611
     internalID: 0
     vertices: []
     indices: 
@@ -198,12 +198,12 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":37.0,"y":53.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":1.0},"gridSpriteSize":{"x":35.0,"y":32.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Carrot_Grab_0: 294419023
-      Carrot_Grab_1: -2079988815
-      Carrot_Grab_2: -1723855539
-      Carrot_Grab_3: 1984342063
+      Tomato_Walk_0: -2119041267
+      Tomato_Walk_1: -320473911
+      Tomato_Walk_2: 698341607
+      Tomato_Walk_3: 483792037
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
