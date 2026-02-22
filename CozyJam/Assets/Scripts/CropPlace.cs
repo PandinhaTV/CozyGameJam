@@ -6,7 +6,9 @@ public class CropPlace : MonoBehaviour
     private GameObject currentCrop;
 
     public GameObject cropBasePrefab;
-
+    public int posx;
+    public int posy;
+    
     public void Plant(SeedData seed)
     {
         if (isOccupied) return;
@@ -16,6 +18,7 @@ public class CropPlace : MonoBehaviour
         crop.Initialize(seed);
         Debug.Log("Crop Created");
         currentCrop = cropObject;
+        Neigbour.instance.playerKey[posx, posy] = seed.seedName;
         isOccupied = true;
     }
 }
