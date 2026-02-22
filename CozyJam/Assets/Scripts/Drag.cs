@@ -24,6 +24,8 @@ public class Drag : MonoBehaviour
 
                     // Desativa física enquanto segura
                     selectedRb.isKinematic = true;
+
+                    CropAudio.instance.OnGrab();
                 }
             }
 
@@ -42,23 +44,26 @@ public class Drag : MonoBehaviour
         // SOLTAR
         else if (selectedObject != null)
         {
-           /* RaycastHit hit = CastRay();
-            if (hit.collider != null && hit.collider.CompareTag("CropPlace"))
-            {
-                
-                CropPlace place = hit.collider.GetComponent<CropPlace>();
+            /* RaycastHit hit = CastRay();
+             if (hit.collider != null && hit.collider.CompareTag("CropPlace"))
+             {
 
-                if (place != null && !place.isOccupied)
-                {
-                    place.Plant(selectedObject.GetComponent<SeedReference>().seedData);
+                 CropPlace place = hit.collider.GetComponent<CropPlace>();
 
-                    Destroy(selectedObject); // remove a seed da mão
-                }
-                else
-                {*/
-                    // Se já estiver ocupado, apenas larga no chão
-                    selectedObject = null;
+                 if (place != null && !place.isOccupied)
+                 {
+                     place.Plant(selectedObject.GetComponent<SeedReference>().seedData);
+
+                     Destroy(selectedObject); // remove a seed da mão
+                 }
+                 else
+                 {*/
+            // Se já estiver ocupado, apenas larga no chão
+            selectedObject = null;
                // }
+               
+               
+            CropAudio.instance.OnRelease();
         }
             /*// Ativa física
             selectedRb.isKinematic = false;
