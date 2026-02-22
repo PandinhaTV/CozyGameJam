@@ -14,8 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SeedData
   seedName: Carrot
   icon: {fileID: 294419023, guid: 0604f82f0dca7ea4c8a8342fc5b84c6d, type: 3}
+  quantity: 4
   growthStageDurations:
-  - 3
+  - 30
   growthStagePrefabs:
   - {fileID: 6006716043630173664, guid: 7a7a08170f647f4488c31de4107ec3d9, type: 3}
   harvestItemPrefab: {fileID: 0}

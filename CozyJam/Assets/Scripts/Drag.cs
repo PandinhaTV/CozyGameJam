@@ -42,7 +42,7 @@ public class Drag : MonoBehaviour
         // SOLTAR
         else if (selectedObject != null)
         {
-            RaycastHit hit = CastRay();
+           /* RaycastHit hit = CastRay();
             if (hit.collider != null && hit.collider.CompareTag("CropPlace"))
             {
                 
@@ -55,11 +55,11 @@ public class Drag : MonoBehaviour
                     Destroy(selectedObject); // remove a seed da mão
                 }
                 else
-                {
+                {*/
                     // Se já estiver ocupado, apenas larga no chão
                     selectedObject = null;
-                }
-            }
+               // }
+        }
             /*// Ativa física
             selectedRb.isKinematic = false;
 
@@ -79,7 +79,7 @@ public class Drag : MonoBehaviour
             // Limpar referências
             selectedObject = null;
             selectedRb = null;
-        }
+        
     }
 
     private RaycastHit CastRay()

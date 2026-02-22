@@ -6,6 +6,7 @@ public class SeedData : ScriptableObject
     [Header("Info")]
     public string seedName;
     public Sprite icon;
+	public int quantity;
 
     [Header("Growth")]
     public float[] growthStageDurations; // tempo por estágio

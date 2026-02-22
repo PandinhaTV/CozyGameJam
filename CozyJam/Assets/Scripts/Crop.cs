@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Crop : MonoBehaviour
 {
@@ -29,6 +30,59 @@ public class Crop : MonoBehaviour
 
                 if (currentStage < seedData.growthStagePrefabs.Length)
                     GrowToStage(currentStage);
+                else if  (currentStage >= seedData.growthStagePrefabs.Length)
+                {
+                    Debug.Log("Ready to harvest");
+                    switch (seedData.name)
+                    {
+                        case "Cenoura":
+                        {
+                            //TODO instance cenoura
+                            //TODO TRIGGER AI 
+                            
+                        }
+                            break;
+                        case "Batata":
+                        {
+                            //TODO TRIGGER AI 
+                            if (Mouse.current.leftButton.wasPressedThisFrame)
+                            {
+                                Harvest();
+                            }
+                        }
+                            break;
+                        case "Alho":
+                        {
+                            //TODO instance Alho
+                            //TODO TriggerAI
+                            
+                        }
+                            break;
+                        case "Nabo":
+                        {
+                            if (Mouse.current.leftButton.wasPressedThisFrame)
+                            {
+                                Harvest();
+                            }
+                        }
+                            break;
+                        case "Tomate":
+                        {
+                            int times = 0;
+                            timer = 0f;
+                            timer += Time.deltaTime;
+                            if (timer >= 5 && times <7)
+                            {
+                                Harvest();
+                                timer = 0f;
+                                times++;
+                            }
+
+                            break;
+
+                        }
+                    }
+                }
             }
         }
     }
@@ -39,6 +93,8 @@ public class Crop : MonoBehaviour
             Destroy(currentVisual);
 
         currentVisual = Instantiate(seedData.growthStagePrefabs[stage], transform);
+        Debug.Log("done");
+        
     }
 
     public void Harvest()

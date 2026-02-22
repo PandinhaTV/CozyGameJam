@@ -10,7 +10,7 @@ public class HotbarSlot : MonoBehaviour
 
     private void Update()
     {
-        text.text = item.quantity.ToString();
+       // text.text = item.quantity.ToString();
     }
 
     

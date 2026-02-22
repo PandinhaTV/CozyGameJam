@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 1673485328085641276}
   - component: {fileID: 1708420683531189204}
   - component: {fileID: 3796544896767395431}
-  - component: {fileID: -7333340169274099356}
   - component: {fileID: -7201717131808411439}
+  - component: {fileID: 2336476638191956485}
   m_Layer: 0
   m_Name: Cenoura
   m_TagString: Grabbable
@@ -115,18 +115,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.32, y: 0.53, z: 0}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-7333340169274099356
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6006716043630173664}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7114270599854de89d45b6d7538a9d78, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Crop
 --- !u!95 &-7201717131808411439
 Animator:
   serializedVersion: 7
@@ -149,3 +137,16 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2336476638191956485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6006716043630173664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bcd0a8f3e349f145957079c49bb45c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SeedReference
+  seedData: {fileID: 11400000, guid: d55cad8475163bb4282331bc9095cc06, type: 2}
