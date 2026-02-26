@@ -1,10 +1,10 @@
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class MainMenu : MonoBehaviour
 {
     public void Play()
     {
-        //TODO JUMP TO SCENE 
+        SceneManager.LoadScene(1);
     }
 
     public void Exit()
