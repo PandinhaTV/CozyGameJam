@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Cenoura
   m_EditorClassIdentifier: Assembly-CSharp::SeedData
   seedName: Carrot
-  icon: {fileID: 294419023, guid: 0604f82f0dca7ea4c8a8342fc5b84c6d, type: 3}
-  quantity: 4
+  icon: {fileID: 21300000, guid: cfdccead83565ee479ec8aef5432003c, type: 3}
+  quantity: 5
   growthStageDurations:
   - 30
   growthStagePrefabs:

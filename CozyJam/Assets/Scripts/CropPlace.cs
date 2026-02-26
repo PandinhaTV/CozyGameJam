@@ -12,7 +12,8 @@ public class CropPlace : MonoBehaviour
     public void Plant(SeedData seed)
     {
         if (isOccupied) return;
-
+        if (seed.quantity==0) return;
+        seed.quantity--;
         GameObject cropObject = Instantiate(cropBasePrefab, transform.position, Quaternion.identity);
         Crop crop = cropObject.GetComponent<Crop>();
         crop.Initialize(seed);
