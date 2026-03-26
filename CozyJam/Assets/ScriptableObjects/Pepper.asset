@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 348e8cab1ee53794296bd5a8b8e08f4b, type: 3}
+  m_Name: Pepper
+  m_EditorClassIdentifier: Assembly-CSharp::CropData
+  cropName: Pepper
+  growingPrefab: {fileID: 5080223134203863365, guid: a5a7523264520284ab4724326bc76026, type: 3}
+  cropPrefab: {fileID: 6610129910499193188, guid: 48981ac7e5fee9f4fa395feb43558cda, type: 3}
+  growTime: 30
+  yieldAmount: 25
+  cost: 100
+  sellValue: 30
+  cropRunSpeed: 15
+  growStages:
+  - {fileID: -3932608346593782933, guid: 0273c3af4c42b12478c64dda0ef63709, type: 3}
+  - {fileID: 2540860077419765016, guid: 0273c3af4c42b12478c64dda0ef63709, type: 3}
+  - {fileID: -5791136803189871115, guid: 0273c3af4c42b12478c64dda0ef63709, type: 3}

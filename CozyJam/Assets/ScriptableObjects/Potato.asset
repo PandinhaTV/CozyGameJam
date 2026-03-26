@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 348e8cab1ee53794296bd5a8b8e08f4b, type: 3}
+  m_Name: Potato
+  m_EditorClassIdentifier: Assembly-CSharp::CropData
+  cropName: Potato
+  growingPrefab: {fileID: 5080223134203863365, guid: d7cc6a6ada26cb544920dbffee779d20, type: 3}
+  cropPrefab: {fileID: 6610129910499193188, guid: ba27b7f0f37dc6f4eafa8156123380cb, type: 3}
+  growTime: 30
+  yieldAmount: 5
+  cost: 35
+  sellValue: 11
+  cropRunSpeed: 3
+  growStages:
+  - {fileID: -5136070164208800732, guid: 039a5064215a3c545a922c30599d84f8, type: 3}
+  - {fileID: -1361530002367815632, guid: 039a5064215a3c545a922c30599d84f8, type: 3}
+  - {fileID: 961111183496337858, guid: 039a5064215a3c545a922c30599d84f8, type: 3}

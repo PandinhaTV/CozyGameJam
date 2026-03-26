@@ -1,123 +1,115 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Crop : MonoBehaviour
 {
-    private SeedData seedData;
-    private int currentStage = 0;
-    private float timer = 0f;
+    protected CropData data;
+    public TileSlot tileSlot; // referencia para o TileSlot onde a planta está
+    protected float growTimer;
+    protected bool isMature;
 
-    private GameObject currentVisual;
+    private SpriteRenderer sr;
+    private int currentStage = -1;
 
-    public void Initialize(SeedData data)
+    public void Initialize(CropData cropData)
     {
-        seedData = data;
-        GrowToStage(0);
+        data = cropData;
+        growTimer = 0;
+        isMature = false;
+
+        sr = GetComponent<SpriteRenderer>();
+
+        UpdateGrowthSprite();
     }
 
     void Update()
     {
-        if (seedData == null) return;
+        Grow();
+        CheckClickForHarvest();
+    }
 
-        timer += Time.deltaTime;
+    protected virtual void Grow()
+    {
+        if (isMature) return;
 
-        if (currentStage < seedData.growthStageDurations.Length)
+        growTimer += Time.deltaTime;
+
+        UpdateGrowthSprite();
+        
+        if (growTimer >= data.growTime)
         {
-            if (timer >= seedData.growthStageDurations[currentStage])
+            isMature = true;
+            OnMature();
+        }
+    }
+
+    protected virtual void OnMature()
+    {
+        Debug.Log(data.cropName + " is mature!");
+        // opcional: trocar sprite para planta madura
+    }
+
+    private void CheckClickForHarvest()
+    {
+        if (!isMature) return;
+
+        if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
+        {
+            Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Mouse.current.position.ReadValue());
+            Collider2D hit = Physics2D.OverlapPoint(mouseWorldPos);
+
+            if (hit != null && hit.gameObject == this.gameObject)
             {
-                timer = 0f;
-                currentStage++;
-
-                if (currentStage < seedData.growthStagePrefabs.Length)
-                    GrowToStage(currentStage);
-                else if  (currentStage >= seedData.growthStagePrefabs.Length)
-                {
-                    Debug.Log("Ready to harvest");
-                    RaycastHit hit = CastRay();
-                    if (hit.collider != null && hit.collider == this.gameObject)
-                    {
-                                            switch (seedData.name)
-                                            {
-                                                case "Cenoura":
-                                                {
-                                                    //TODO instance cenoura
-                                                    //TODO TRIGGER AI 
-                                                    Harvest();
-                                                    
-                                                }
-                                                    break;
-                                                case "Batata":
-                                                {
-                                                    //TODO TRIGGER AI 
-                                                    if (Mouse.current.leftButton.wasPressedThisFrame)
-                                                    {
-                                                        Harvest();
-                                                    }
-                                                }
-                                                    break;
-                                                case "Alho":
-                                                {
-                                                    //TODO instance Alho
-                                                    //TODO TriggerAI
-                                                    
-                                                }
-                                                    break;
-                                                case "Nabo":
-                                                {
-                                                    if (Mouse.current.leftButton.wasPressedThisFrame)
-                                                    {
-                                                        Harvest();
-                                                    }
-                                                }
-                                                    break;
-                                                case "Tomate":
-                                                {
-                                                    int times = 0;
-                                                    timer = 0f;
-                                                    timer += Time.deltaTime;
-                                                    if (timer >= 5 && times <7)
-                                                    {
-                                                        Harvest();
-                                                        timer = 0f;
-                                                        times++;
-                                                    }
-                        
-                                                    break;
-                        
-                                                }
-                                            }
-
-                    }
-                }
+                Harvest();
             }
         }
     }
 
-    void GrowToStage(int stage)
+    public virtual void Harvest()
     {
-        if (currentVisual != null)
-            Destroy(currentVisual);
+        if (!isMature) return;
 
-        currentVisual = Instantiate(seedData.growthStagePrefabs[stage], transform);
-        Debug.Log("done");
-        
+        // instanciar vegetais que fogem
+        for (int i = 0; i < data.yieldAmount; i++)
+        {
+            GameObject vegetableObj = Instantiate(data.cropPrefab, transform.position, Quaternion.identity);
+
+            // atribuir CropData
+            Crop2MUDARONOMEDISTO vegetable = vegetableObj.GetComponent<Crop2MUDARONOMEDISTO>();
+            if (vegetable != null) vegetable.cropData = data;
+
+            // definir velocidade/fuga no script da vegetal
+            CropAI ai = vegetable.GetComponent<CropAI>();
+            if (ai != null)
+            {
+                ai.SetSpeed(data.cropRunSpeed);
+            }
+        }
+
+        // libera o tile
+        if (tileSlot != null)
+        {
+            tileSlot.isOccupied = false;
+            tileSlot.plantedCrop = null; // se tiver referência
+        }
+
+        Destroy(gameObject); // destrói a planta original
     }
 
-    public void Harvest()
+    void UpdateGrowthSprite()
     {
-        
-            Instantiate(seedData.harvestItemPrefab, transform.position, Quaternion.identity);
-            Destroy(gameObject);
-          
-    }
-    private RaycastHit CastRay()
-    {
-        Vector3 screenMousePosFar = new Vector3(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue(), Camera.main.farClipPlane);
-        Vector3 screenMousePosNear = new Vector3(Mouse.current.position.x.ReadValue(), Mouse.current.position.y.ReadValue(), Camera.main.nearClipPlane);
-        Vector3 worldMousePosFar = Camera.main.ScreenToWorldPoint(screenMousePosFar);
-        Vector3 worldMousePosNear = Camera.main.ScreenToWorldPoint(screenMousePosNear);
-        RaycastHit hit;
-        Physics.Raycast(worldMousePosNear, worldMousePosFar - worldMousePosNear, out hit);
-        return hit;
+        if (data.growStages == null || data.growStages.Length == 0) return;
+
+        float growthPercent = growTimer / data.growTime;
+
+        int stage = Mathf.FloorToInt(growthPercent * data.growStages.Length);
+
+        stage = Mathf.Clamp(stage, 0, data.growStages.Length - 1);
+
+        if (stage != currentStage)
+        {
+            currentStage = stage;
+            sr.sprite = data.growStages[stage];
+        }
     }
 }

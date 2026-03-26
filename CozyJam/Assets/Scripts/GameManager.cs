@@ -1,25 +1,24 @@
-using System;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public static GameManager instance;
-    public int playerMoney = 0;
+    public static GameManager Instance;
+
+    public int coins = 0;
 
     private void Awake()
     {
-        instance = this;
+        if (Instance == null) Instance = this;
+        else Destroy(gameObject);
     }
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public void AddCoins(int amount)
     {
-        
+        coins += amount;
+        Debug.Log("Coins: " + coins);
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+
 }

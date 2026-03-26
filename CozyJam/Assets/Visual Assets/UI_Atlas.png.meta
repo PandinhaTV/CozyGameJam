@@ -1,0 +1,1067 @@
+fileFormatVersion: 2
+guid: d8d9dd5b936c1164cb20101df858605b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7674825515897469759
+    second: UI_Atlas_0
+  - first:
+      213: 6705234550388297454
+    second: UI_Atlas_1
+  - first:
+      213: 2319559903630699111
+    second: UI_Atlas_2
+  - first:
+      213: 4762703811964850140
+    second: UI_Atlas_3
+  - first:
+      213: 5759853350487329196
+    second: UI_Atlas_4
+  - first:
+      213: 6067959639239617809
+    second: UI_Atlas_5
+  - first:
+      213: -7405591805192510831
+    second: UI_Atlas_6
+  - first:
+      213: 6876581839561220008
+    second: UI_Atlas_7
+  - first:
+      213: -5732831613066410305
+    second: UI_Atlas_8
+  - first:
+      213: 1730207275420213454
+    second: UI_Atlas_9
+  - first:
+      213: 9169302812622797714
+    second: UI_Atlas_10
+  - first:
+      213: -2686915022738845234
+    second: UI_Atlas_11
+  - first:
+      213: -5662331205049777189
+    second: UI_Atlas_12
+  - first:
+      213: -4499889456890908193
+    second: UI_Atlas_13
+  - first:
+      213: 6638937808726883580
+    second: UI_Atlas_14
+  - first:
+      213: -2881641091924889948
+    second: UI_Atlas_15
+  - first:
+      213: 4989955741287505325
+    second: UI_Atlas_16
+  - first:
+      213: 2759328271378515623
+    second: UI_Atlas_17
+  - first:
+      213: 7624517014378302646
+    second: UI_Atlas_18
+  - first:
+      213: 8480756698261111766
+    second: UI_Atlas_19
+  - first:
+      213: 2301828255762262007
+    second: UI_Atlas_20
+  - first:
+      213: -7685961726424631194
+    second: UI_Atlas_21
+  - first:
+      213: 4397480965756162332
+    second: UI_Atlas_22
+  - first:
+      213: -6376593061876419488
+    second: UI_Atlas_23
+  - first:
+      213: 805941321548132055
+    second: UI_Atlas_24
+  - first:
+      213: -1640743564179960456
+    second: UI_Atlas_25
+  - first:
+      213: 9041403236661736026
+    second: UI_Atlas_26
+  - first:
+      213: -559805339804001781
+    second: UI_Atlas_27
+  - first:
+      213: -2524335730990870671
+    second: UI_Atlas_28
+  - first:
+      213: 2923636854260745458
+    second: UI_Atlas_29
+  - first:
+      213: 8760121640036579186
+    second: UI_Atlas_30
+  - first:
+      213: -706624562323214772
+    second: UI_Atlas_31
+  - first:
+      213: 6120651995778867613
+    second: UI_Atlas_32
+  - first:
+      213: 3358676249411804738
+    second: UI_Atlas_33
+  - first:
+      213: 359097718452557981
+    second: UI_Atlas_34
+  - first:
+      213: 206517675631676039
+    second: UI_Atlas_35
+  - first:
+      213: 8088780197108959923
+    second: UI_Atlas_36
+  - first:
+      213: -2979213119033706813
+    second: UI_Atlas_37
+  - first:
+      213: 5422562018361672713
+    second: UI_Atlas_38
+  - first:
+      213: 7585397752056056951
+    second: UI_Atlas_39
+  - first:
+      213: 1880510012441586405
+    second: UI_Atlas_40
+  - first:
+      213: 8686186417092650914
+    second: UI_Atlas_41
+  - first:
+      213: -2611050912234281805
+    second: UI_Atlas_42
+  - first:
+      213: 6765070784006843346
+    second: UI_Atlas_43
+  - first:
+      213: -1341012418809560178
+    second: UI_Atlas_44
+  - first:
+      213: -2568690315338058568
+    second: UI_Atlas_45
+  - first:
+      213: 4783797201840434291
+    second: UI_Atlas_46
+  - first:
+      213: -3838244753035298434
+    second: UI_Atlas_47
+  - first:
+      213: -7123805003143172404
+    second: UI_Atlas_48
+  - first:
+      213: 6498877701799462012
+    second: UI_Atlas_49
+  - first:
+      213: 272542242759159915
+    second: UI_Atlas_50
+  - first:
+      213: 364577184257693057
+    second: UI_Atlas_51
+  - first:
+      213: -7722024134894534350
+    second: UI_Atlas_52
+  - first:
+      213: -6766271772811245799
+    second: UI_Atlas_53
+  - first:
+      213: 4691335258309320888
+    second: UI_Atlas_54
+  - first:
+      213: -8501625735287506351
+    second: UI_Atlas_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI_Atlas_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 887
+        width: 239
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c4c3d33bda8d7590800000000000000
+      internalID: -7674825515897469759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 930
+        width: 161
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee02973c47cd0d50800000000000000
+      internalID: 6705234550388297454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_3
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 759
+        width: 32
+        height: 216
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf409212e5881240800000000000000
+      internalID: 4762703811964850140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_4
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 904
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca90422fa1c1fef40800000000000000
+      internalID: 5759853350487329196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_6
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 889
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192e4fb5d7d0a3990800000000000000
+      internalID: -7405591805192510831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_7
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 732
+        width: 136
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afd2f7dfb68e6f50800000000000000
+      internalID: 6876581839561220008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_8
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 857
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb60c029504e070b0800000000000000
+      internalID: -5732831613066410305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_9
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 840
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0e737995ee20810800000000000000
+      internalID: 1730207275420213454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_10
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 862
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b3f58b358ef3f70800000000000000
+      internalID: 9169302812622797714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_12
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 838
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd30662f4cb5b61b0800000000000000
+      internalID: -5662331205049777189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_24
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 794
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de6fa4ac574f2b00800000000000000
+      internalID: 805941321548132055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_25
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 807
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d8b81eb68ea39e0800000000000000
+      internalID: -1640743564179960456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_33
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 762
+        width: 28
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e5bb9f04a6c9e20800000000000000
+      internalID: 3358676249411804738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_34
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 759
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98940ce875cbf400800000000000000
+      internalID: 359097718452557981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_35
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 759
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a8dd75bb2bdd200800000000000000
+      internalID: 206517675631676039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_36
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 731
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bac4eaabbe114070800000000000000
+      internalID: 8088780197108959923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_37
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 711
+        width: 37
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6ffc9e375b7a6d0800000000000000
+      internalID: -2979213119033706813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_38
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 674
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90409fcfc6fc04b40800000000000000
+      internalID: 5422562018361672713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_39
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 696
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77c095bf01fb44960800000000000000
+      internalID: 7585397752056056951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_40
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 696
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ea652894e9e81a10800000000000000
+      internalID: 1880510012441586405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_41
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 696
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a761a366888b8870800000000000000
+      internalID: 8686186417092650914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_42
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 687
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4e0dd770fa3cbd0800000000000000
+      internalID: -2611050912234281805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_43
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 685
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dbe911090c52ed50800000000000000
+      internalID: 6765070784006843346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_44
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 675
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8308716f44c36de0800000000000000
+      internalID: -1341012418809560178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_45
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 675
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b4f94884cd2a5cd0800000000000000
+      internalID: -2568690315338058568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_47
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 600
+        width: 503
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79f256abb0dbbac0800000000000000
+      internalID: -3838244753035298434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_48
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 679
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cce208ad719232d90800000000000000
+      internalID: -7123805003143172404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_49
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 616
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74c67656d6a03a50800000000000000
+      internalID: 6498877701799462012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_50
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 365
+        width: 362
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60b2fdc9b348c300800000000000000
+      internalID: 272542242759159915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_51
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 393
+        width: 136
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18554e8740d3f0500800000000000000
+      internalID: 364577184257693057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_52
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 459
+        width: 110
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2314e9c56fbd5d490800000000000000
+      internalID: -7722024134894534350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_2
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 840
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9315a0055d6ba45b3c1bc945bdbd05
+      internalID: 2319559903630699111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Atlas_5
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 803
+        width: 26
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7a07fa1bd99074ea63d491485a9f76
+      internalID: 6067959639239617809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: bc699c8f7af5c2143b69ff21152222e9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UI_Atlas_0: -7674825515897469759
+      UI_Atlas_1: 6705234550388297454
+      UI_Atlas_10: 9169302812622797714
+      UI_Atlas_11: -2686915022738845234
+      UI_Atlas_12: -5662331205049777189
+      UI_Atlas_13: -4499889456890908193
+      UI_Atlas_14: 6638937808726883580
+      UI_Atlas_15: -2881641091924889948
+      UI_Atlas_16: 4989955741287505325
+      UI_Atlas_17: 2759328271378515623
+      UI_Atlas_18: 7624517014378302646
+      UI_Atlas_19: 8480756698261111766
+      UI_Atlas_2: 2319559903630699111
+      UI_Atlas_20: 2301828255762262007
+      UI_Atlas_21: -7685961726424631194
+      UI_Atlas_22: 4397480965756162332
+      UI_Atlas_23: -6376593061876419488
+      UI_Atlas_24: 805941321548132055
+      UI_Atlas_25: -1640743564179960456
+      UI_Atlas_26: 9041403236661736026
+      UI_Atlas_27: -559805339804001781
+      UI_Atlas_28: -2524335730990870671
+      UI_Atlas_29: 2923636854260745458
+      UI_Atlas_3: 4762703811964850140
+      UI_Atlas_30: 8760121640036579186
+      UI_Atlas_31: -706624562323214772
+      UI_Atlas_32: 6120651995778867613
+      UI_Atlas_33: 3358676249411804738
+      UI_Atlas_34: 359097718452557981
+      UI_Atlas_35: 206517675631676039
+      UI_Atlas_36: 8088780197108959923
+      UI_Atlas_37: -2979213119033706813
+      UI_Atlas_38: 5422562018361672713
+      UI_Atlas_39: 7585397752056056951
+      UI_Atlas_4: 5759853350487329196
+      UI_Atlas_40: 1880510012441586405
+      UI_Atlas_41: 8686186417092650914
+      UI_Atlas_42: -2611050912234281805
+      UI_Atlas_43: 6765070784006843346
+      UI_Atlas_44: -1341012418809560178
+      UI_Atlas_45: -2568690315338058568
+      UI_Atlas_46: 4783797201840434291
+      UI_Atlas_47: -3838244753035298434
+      UI_Atlas_48: -7123805003143172404
+      UI_Atlas_49: 6498877701799462012
+      UI_Atlas_5: 6067959639239617809
+      UI_Atlas_50: 272542242759159915
+      UI_Atlas_51: 364577184257693057
+      UI_Atlas_52: -7722024134894534350
+      UI_Atlas_53: -6766271772811245799
+      UI_Atlas_54: 4691335258309320888
+      UI_Atlas_55: -8501625735287506351
+      UI_Atlas_6: -7405591805192510831
+      UI_Atlas_7: 6876581839561220008
+      UI_Atlas_8: -5732831613066410305
+      UI_Atlas_9: 1730207275420213454
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
